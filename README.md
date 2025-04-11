@@ -9,7 +9,8 @@ Simply press the Space bar and watch each other's health go down until you win! 
 # Installation Procedure
 1. Download the repository onto your local computer.
 2. Install pygame using `pip install pygame` in the command line.
-3. Run `main.py` using Python IDLE or any other IDE that supports Python.  
+3. Run `main.py` using Python IDLE or any other IDE that supports Python.
+     
 _**For VSCode**_
 - _IF PYGAME DOES NOT DETECT AFTER INSTALLATION, SET INTERPRETER PATH TO THE "Global" PATH (C:\Python{version}\python.exe) INSTEAD OF THE "Recommended" PATH._
 - _If you receive any `FileNotFound` errors when attempting to run `main.py` by itself, please Open the root folder in the window instead and run `main.py` from there. The reason for this error is the use of relative file paths to load the assets, which VSCode cannot detect unless it opens the project as a whole._ 
